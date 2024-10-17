@@ -33,3 +33,15 @@ function changeEmojiColor(elem){
     const b=randint(0,255)
     elem.style.fill='rgb('+r+','+g+','+b+')';
 }
+function b1(boton){
+    boton.style.fill = "red";
+
+}
+function b2(boton){
+    boton.style.fill = "white";
+   
+}
+function ayiyi(boton){
+    boton.innerHTML = Math.random();
+   
+}
